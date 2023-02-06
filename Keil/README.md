@@ -6,7 +6,7 @@
 + TVM：microTVM生成的文件
 + USER：main函数和一些输入输出等头文件
 # 所需版本条件
-+ MDK：μVersion V5.38.0.0
++ MDK：μVersion V5.38.0.0 Windows
 + ARM Compiler：V6.19
 + C Standard：C90
 + ARM CMSIS：V5.9.0
