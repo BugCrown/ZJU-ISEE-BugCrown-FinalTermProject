@@ -6,12 +6,12 @@
 + TVM：microTVM生成的文件
 + USER：main函数和一些输入输出等头文件
 ## Includes
-+ \SYSTEM\usart
-+ \SYSTEM\sys
-+ \SYSTEM\delay
-+ \TVM\codegen\inc
-+ \TVM\runtime\inc
-+ \USER\inc
++ .\SYSTEM\usart
++ .\SYSTEM\sys
++ .\SYSTEM\delay
++ .\TVM\codegen\inc
++ .\TVM\runtime\inc
++ .\USER\inc
 ## 环境
 ### Windows
 + MDK：μVersion V5.38.0.0
