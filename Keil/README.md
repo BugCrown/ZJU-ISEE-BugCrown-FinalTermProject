@@ -12,7 +12,7 @@
 + \TVM\codegen\inc
 + \TVM\runtime\inc
 + \USER\inc
-## 所需版本条件
+## 环境
 ### Windows
 + MDK：μVersion V5.38.0.0
 + ARM Compiler：V6.19
