@@ -10,3 +10,5 @@ MDK工程使用的是STM32CubeMX自动生成的HAL库文件，根据注释修改
 + C Standard：C90
 + ARM CMSIS：V5.9.0
 + ARM CMSIS-NN：V2.7.2
+## 注意事项
+驱动和中间件部分太大没有上传，可通过STM32CubeMX自己生成。
