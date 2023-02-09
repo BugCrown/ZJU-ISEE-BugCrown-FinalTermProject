@@ -3,4 +3,5 @@
 # 项目构成
 + NN：神经网络的训练与数据集的处理，本项目数据集使用凯斯西储大学CWRU数据集，神经网络使用WDCNN，使用TensorFlow框架搭建和训练。
 + microTVM：基于TVM-v0.10.0搭建的用于基于Cortex-M4内核的微控制器的应用实例。
-+ Keil：基于MDK5和microTVM搭建的项目实例，本项目采用的微控制器为STM32F407ZGT6.
++ Keil：基于MDK5和microTVM搭建的项目实例，本项目采用的微控制器为STM32F407ZGT6。
++ CubeAI：基于STM32CubeMX、X-Cube-AI和MDK5搭建的项目实例，本项目采用的微控制器为STM32F407ZGT6。
