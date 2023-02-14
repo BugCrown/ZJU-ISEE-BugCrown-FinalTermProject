@@ -1,4 +1,4 @@
-# wdcnn
+# CubeAI
 + wdcnn：包含了STM32CubeMX工程文件和由其生成的MDK5工程。  
 + Model：存放h5、未量化tflite模型、全整型量化tflite模型文件，三者在STM32F407ZGT6通过X-Cube-AI实现后推理一次所需时间分别为64ms、40ms、23ms左右（运行100次取平均值）。  
 
