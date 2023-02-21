@@ -14,3 +14,4 @@
 | X-Cube-AI | WDCNN.tflite         |     99.8%     |    99.8%    |   40.5ms    |
 | X-Cube-AI | WDCNN.h5             |     99.8%     |    99.8%    |   63.7ms    |
 | TFLM      | WDCNNQuant_v1.tflite |     97.4%     |    97.4%    |   106.5ms   |
+**推理延迟均为运行推理函数（run/invoke等）100次并进行计时，取得平均推理时间**
