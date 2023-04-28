@@ -6,13 +6,13 @@
 + Keil：基于MDK5和microTVM搭建的项目实例。
 + CubeAI：基于STM32CubeMX、X-Cube-AI和MDK5搭建的项目实例。
 + TFLM：基于STM32CubeMX、X-Cube-AI、TensoFlow Lite Micro和MDK5搭建的项目实例。
-# 结果
+# 结果 O2
 |  部署框架  |       使用模型       |   PC推理精度   | 板上推理精度 | 板上推理延迟 |
 | :-------: |:-------------------: | :-----------: | :---------: | :---------: |
-| MicroTVM  | WDCNNQuant_v1.tflite |     97.4%     |    97.4%    |   96.0ms    |
+| MicroTVM  | WDCNNQuant_v1.tflite |     97.4%     |    97.4%    |   16.0ms    |
 | X-Cube-AI | WDCNNQuant_v1.tflite |     97.4%     |    97.4%    |   22.6ms    |
 | X-Cube-AI | WDCNN.tflite         |     99.8%     |    99.8%    |   40.5ms    |
 | X-Cube-AI | WDCNN.h5             |     99.8%     |    99.8%    |   63.7ms    |
-| TFLM      | WDCNNQuant_v1.tflite |     97.4%     |    97.4%    |   106.5ms   |  
+| TFLM      | WDCNNQuant_v1.tflite |     97.4%     |    97.4%    |   22.6ms   |  
 
-**推理延迟均为运行推理函数（run/invoke等）100次并进行计时，取得平均推理时间**
+**推理延迟均为运行推理函数（run/invoke等）1000次并进行计时，取得平均推理时间**
